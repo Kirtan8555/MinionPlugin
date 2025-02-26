@@ -1,0 +1,13 @@
+name: MinionPlugin
+main: MinionPlugin\Main
+version: 2.0.0
+api: 5.0.0
+author: YourName
+commands:
+  minion:
+    description: "Minion Menu खोलें"
+    usage: "/minion"
+    permission: minion.use
+permissions:
+  minion.use:
+    default: true
